@@ -66,6 +66,132 @@ a:hover {
   cursor: default;
 }
 
+.btn-download {
+  --main-focus: #2d8cf0;
+  --font-color: #323232;
+  --bg-color-sub: #dedede;
+  --bg-color: #eee;
+  --main-color: #323232;
+  position: relative;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.btn-download, .btn-download__icon, .btn-download__text {
+  transition: all 0.3s;
+}
+
+.btn-download .btn-download__text {
+  transform: translateX(22px);
+  color: var(--font-color);
+  font-weight: 600;
+}
+
+.btn-download .btn-download__icon {
+  position: absolute;
+  transform: translateX(109px);
+  height: 100%;
+  width: 39px;
+  background-color: var(--bg-color-sub);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-download .svg {
+  width: 20px;
+  fill: var(--main-color);
+}
+
+.btn-download:hover {
+  background: var(--bg-color);
+}
+
+.btn-download:hover .btn-download__text {
+  color: transparent;
+}
+
+.btn-download:hover .btn-download__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+.btn-download:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px var(--main-color);
+}
+
+.btn-contact {
+  --main-focus: #2d8cf0;
+  --font-color: #ffffff;
+  --bg-color-sub: #222;
+  --bg-color: #323232;
+  --main-color: #686868;
+  position: relative;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.btn-contact, .btn-contact__icon, .btn-contact__text {
+  transition: all 0.3s;
+}
+
+.btn-contact .btn-contact__text {
+  transform: translateX(21px);
+  color: var(--font-color);
+  font-weight: 600;
+}
+
+.btn-contact .btn-contact__icon {
+  position: absolute;
+  transform: translateX(109px);
+  height: 100%;
+  width: 39px;
+  background-color: var(--bg-color-sub);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-contact .svg {
+  width: 20px;
+  fill: var(--main-color);
+}
+
+.btn-contact:hover {
+  background: var(--bg-color);
+}
+
+.btn-contact:hover .btn-contact__text {
+  color: transparent;
+}
+
+.btn-contact:hover .btn-contact__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+.btn-contact:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px var(--main-color);
+}
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {
