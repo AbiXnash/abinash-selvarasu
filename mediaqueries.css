@@ -1,14 +1,24 @@
+@media screen and (min-width: 1400px) {
+  #contact {
+    margin-top: 500px;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
   }
+
   .about-containers {
     flex-wrap: wrap;
   }
   #contact,
   #projects {
     height: fit-content;
+  }
+  #contact {
+    margin-top: 100px;
   }
 }
 
