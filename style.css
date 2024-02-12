@@ -279,7 +279,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  /* height: 96vh; */
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -762,7 +762,7 @@ footer p {
 }
 
 .card .social-link2:hover {
-  background-color: #00ccff;
+  background-color: #d6d6d6;
   animation: bounce_613 0.4s linear;
 }
 
